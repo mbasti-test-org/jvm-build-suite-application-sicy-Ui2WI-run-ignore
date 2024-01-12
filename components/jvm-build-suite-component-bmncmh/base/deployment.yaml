@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-bmncmh
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/mbasti-test-org/jvm-build-cncl-tenant/jvm-build-suite-application-sicy/jvm-build-suite-component-bmncmh@sha256:af7af710f6c063b0b729c279dcbe24d3e1d2a32e3eaa55cc70aa0c2c87a3916b
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
